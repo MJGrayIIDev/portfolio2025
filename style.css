@@ -1,0 +1,120 @@
+body {
+    font-family: Montserrat;
+    margin: 0;
+    background-color: white;
+    
+}
+
+button {
+    border-radius: 50px;
+    border: 1;
+    padding: 8px; 
+    font-family:Montserrat;
+    font-weight: 500;   
+    background-color: white;
+    margin-top: 8px;
+}
+
+#ledgerbutton:hover {
+    color: white;
+    background-color: #3B64A4;
+    border: 1 ;
+    border-color: #3B64A4; 
+    border-bottom:  #3B64A4;  
+    border-right: #3B64A4;
+
+}
+
+#socitibutton:hover {
+
+    color: white;
+    border-color: #C95B41;
+    background-color:#C95B41 ;
+    border: 1 ;   
+}
+
+#atsbutton:hover {
+
+    color: white;
+    border-color:#FADDB8;
+    background-color:#FADDB8;
+    border: 1;
+   
+}
+
+.greeting {
+    padding:35px
+
+}
+
+
+.greeting h3 {
+    margin: 0;
+    font-weight: 400;
+    
+}
+
+.greeting p {
+    font-size: 18px;
+}
+.greeting ul {
+    list-style-type: none;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+li {
+    color: black;
+    text-decoration-color: black;
+}
+
+a {
+    text-decoration-color: black;
+}
+
+.sectionheader {
+
+    text-align: center;
+    font-size: 100px;
+}
+
+.sectionheader h2 {
+    font-weight: 500;
+}
+
+.casestudy {
+
+    padding: 35px;
+}
+
+.mentorship {
+
+    padding:35px
+}
+
+.mentorship h2 {
+
+}
+
+.contributions {
+    padding: 35px;
+}
+.about {
+    padding: 35px;
+}
+
+footer {
+    text-align: center;
+
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+@media (max-width:600px) {
+    .sectionheader {
+        font-size: 30px;
+    }
+}
+
