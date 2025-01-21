@@ -5,6 +5,71 @@ body {
     
 }
 
+
+header {
+    display;
+
+}
+
+.grid-containerhome {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.item {
+    padding: 0 30px 0 30px;
+}
+
+
+.grid-containermentor {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 35px;
+    gap: 15px;
+}
+
+.testimonials {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 35px;
+}
+
+.mentoritem {
+    padding: 35px;
+
+}
+
+.mentoritem h2 {
+
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.grid-containercontribs {
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 35px;
+
+}
+
+
+.grid-containerabout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 35px;
+
+
+}
+
+
+
 button {
     border-radius: 50px;
     border: 1;
